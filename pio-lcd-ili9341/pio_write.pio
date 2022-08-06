@@ -1,0 +1,13 @@
+.program pio_write
+.side_set 2 opt
+
+; sideset: CS(GP13), SCK(GP14)
+
+.wrap_target
+    pull side 0x1
+    set x, 7 side 0x0
+loop:
+    out pins, 1 side 0x0
+    jmp x-- loop side 0x2
+    irq wait 0
+.wrap
