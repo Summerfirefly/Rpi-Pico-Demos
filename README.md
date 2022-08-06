@@ -1,5 +1,5 @@
 # Rpi-Pico-Demos
-This registry contains some code demo for Raspberry Pi Pico
+This repository contains some code demos for Raspberry Pi Pico
 
 Includes:
 - LED Blink
