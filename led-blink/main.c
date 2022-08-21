@@ -12,9 +12,9 @@ int main(void)
     {
         uart_puts(uart0, "Hello LED!\r\n");
         gpio_put(25, 1);
-	sleep_ms(1000);
-	gpio_put(25, 0);
-	sleep_ms(1000);
+        sleep_ms(1000);
+        gpio_put(25, 0);
+        sleep_ms(1000);
     }
 
     return 0;

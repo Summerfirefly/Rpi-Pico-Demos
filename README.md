@@ -6,3 +6,4 @@ Includes:
 - ILI9341 LCD Driver
 - ILI9341 LCD Driver with PIO
 - TM1637 4-Digit Display
+- BME280 I2C
